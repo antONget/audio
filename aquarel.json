@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "aquarel-406814",
+  "private_key_id": "7b36a89c5f74ae05cc4deca84c5f88c773c316ca",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQC12smuTXTgn1Ph\nghoeuuJV9vgLspSDVuL/MB3VU3XQf7lWRGil1+g0w1G2PMzn9N9WY68m+2kSzY2Q\nPwnWGBAEoMNUfGt+3n/swKnm/Bir7I3movYnN2d2C0AZXrq+IbuVvSQzoKO0h6Qy\n2Ko6t8Kfb3xIwhm6ZYN0V6TIpjDsD8RfzWMnzd5drDyYp8Z28euzbbOBknB3oXZU\n+eYC29rhJfDwIpXrL6XduM55DobitsvITojFAO2cUoUG08AwAXCzbUfD0DO3ZkEH\nPvZgLGvllx9II+RXvAGSJXg6+1kp6xC6Rst0XQtJYcA+SfHfgyQdZf/tOTrZI6xI\nZukjIT7/AgMBAAECggEAAnq0pDU3IjbZ4GmzLHcUzeI7mIE7SB0fpCYGShnEse6D\n2tq86IHsjweYrhjfHEx43Qcn5Kqp0JFP3EcXvbz/PujoMNcvaf/jk5k+18DZH0Lu\n3lWbcIZvWSsnGRFzD1OLaKu2+iM3CCePRAgzLfDCbQUKlz1aN3HZ3HSzcO7fHODG\nQJR475wMJoI9E5uFfwTtHH/pZjXowJWECImEocyRpdDLTyUcwHujPq1OTdKBqH3o\ntUQobq48V9U2v6xI4ZLHeNDBZF0WO+/Zkg8KJBszhfA4Hgh8e2ZzVnqM7F3V7ZRH\n0ghJvmBxvNHM3wweOviBcyJe8mgLrGSgECJkOyWoUQKBgQDo4s3xEzOMGzKEG0zk\n88JAv9TdeRi6Eb4mtdW7d4BxLGfu5QGRv6MAQSHQhTonNSbUViNi2jd8fMDCpx12\njX6ndyCvab6hga1jwNLmk0A5vPRvBhkOmqW8MBEuoCtEQnsYwll/cLkaPVND/fZN\nU+I/otuSswtnsNR+bRXuU+9QkQKBgQDH51+RAB8wb1i/RE+IrnjVqdAphE3i8+wE\nHDCUwASdT8NF0kdLoMPg+R6EuG6qvrvjoFXszc0EOnw/U4aRTczWPqtfKIH/8BNB\n3hl9EExtbVRPoWv1blCm0Wv9IR0Rxtu5/emi7IWugBVzRQ6oGfVLJ1whpsUUyWM/\nZyXl4f5ejwKBgH+ZZUUlRCUL8c24N5VqiZB4iuUeKJIqjokfMBAbFeDsd7XI++cj\nnOfSx/g8RvSchr3oxFKxRZ2LrQH6FoaSWEbhWqNByRUsvBff2q5DF/mKslLygGAk\nE5Lcs01crNglpNSYB/lvhbv+xdSHHaCYyWocjTn/p8wUcxkiI9YFXyZBAoGAWTzo\nZIpxYeXS8E9GUfXQ61DLJD1zp4TML2mGJmExrigVO+4K9a/mwV90SDss6/wJVCwX\nL4cPpnuVS4+12teoQVvolKo4nlBFyHmlVzcXZyIPKR0eXInKZy3Fz1Ig7/ad0AGR\ncrGzW5rB+JszV8d+wPXpIvyXrhfYvk0FlgG00/ECgYB5xXVJ8uMkbbdLaI0OaF2o\nbMQAAtIsouLvE1BNdDb4cfP/J28CPUgAP0DvuW25xEoak6Cs0rmdJlmeIG1XsNjU\n5ajCJppIBLRJH/fzkRWl9h3h+BHnEV7veg4DvBGv9ZE5ujfno8UG7X3Ze5FP2q8c\np8urQdvflO5d039IDTts/A==\n-----END PRIVATE KEY-----\n",
+  "client_email": "aquarelservice@aquarel-406814.iam.gserviceaccount.com",
+  "client_id": "102495420834547582036",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/aquarelservice%40aquarel-406814.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
