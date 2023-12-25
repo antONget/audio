@@ -32,8 +32,8 @@ def get_text_messages(message):
         if message.chat.id in [843554518]:
             bot.send_message(chat_id=message.chat.id,
                              text='Вы являетесь администратором и вам доступен расширенный функционал бота!')
-            # users = googleSheets.get_all_user()
-            users = [843554518, 463672403, 5443784834]
+            users = googleSheets.get_all_user()
+            # users = [843554518, 463672403, 5443784834]
             for i, u in enumerate(users):
                 time.sleep(1)
                 try:
