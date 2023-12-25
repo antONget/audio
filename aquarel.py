@@ -239,7 +239,7 @@ def callback_picture(call):
                           ' важном.\n\n'
                           '<a href="https://www.wildberries.ru/catalog/195632159/detail.aspx?targetUrl=GP&size=317794367">ЗАКАЗАТЬ</a>\n\n'
                           'Количество картин ограничено!',
-                     parse_mode="Markdown")
+                     parse_mode="HTML")
     # msg = bot.send_message(call.message.chat.id, text='Укажите ваши имя и фамилию')
     # user["flag_contact"] = True
     # bot.register_next_step_handler(msg, get_contact)
