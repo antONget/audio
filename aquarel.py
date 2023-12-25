@@ -32,8 +32,8 @@ def get_text_messages(message):
         if message.chat.id in [843554518]:
             bot.send_message(chat_id=message.chat.id,
                              text='Вы являетесь администратором и вам доступен расширенный функционал бота!')
-            # users = googleSheets.get_all_user()
-            users = [843554518, 463672403, 5443784834]
+            users = googleSheets.get_all_user()
+            # users = [843554518, 463672403, 5443784834]
             for i, u in enumerate(users):
                 time.sleep(1)
                 try:
@@ -232,17 +232,17 @@ def callback_picture(call):
     print("callback_picture")
     bot.clear_step_handler(call.message)
     bot.send_message(call.message.chat.id,
-                     text='Совсем скоро вы сможете заказать картины по номерам *Акварели для цели* '
-                          'с популярного маркетплэйса Wildberries. Во время рисования, вы погружаетесь в гармоничное '
-                          'и восприимчивое состояние для достижения ваших целей. Мозг отсеивает ненужную информацию и '
-                          'сосредотачивается на важном.'
-                          '\n'
-                          '\n'
-                          'Узнать о наличии первыми можно заполнив анкету предзаказа.',
+                     text='Нарисуйте свой уникальный путь к успеху! Закажите картину по номерам Акварели'
+                          ' для цели на <a href="https://www.wildberries.ru/catalog/195632159/detail.aspx?targetUrl=GP&size=317794367">Wildberries</a>.\n\n'
+                          'Во время рисования, вы погружаетесь в гармоничное и восприимчивое состояние для'
+                          ' достижения ваших целей. Мозг отсеивает ненужную информацию и сосредотачивается на'
+                          ' важном.\n\n'
+                          '<a href="https://www.wildberries.ru/catalog/195632159/detail.aspx?targetUrl=GP&size=317794367">ЗАКАЗАТЬ</a>\n\n'
+                          'Количество картин ограничено!',
                      parse_mode="Markdown")
-    msg = bot.send_message(call.message.chat.id, text='Укажите ваши имя и фамилию')
-    user["flag_contact"] = True
-    bot.register_next_step_handler(msg, get_contact)
+    # msg = bot.send_message(call.message.chat.id, text='Укажите ваши имя и фамилию')
+    # user["flag_contact"] = True
+    # bot.register_next_step_handler(msg, get_contact)
 
 
 # получение и запись контакта введенного вручную
